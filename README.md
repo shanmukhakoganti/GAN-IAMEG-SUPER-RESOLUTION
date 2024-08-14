@@ -1,4 +1,4 @@
-# GAN-IAMEG-SUPER-RESOLUTION
+# GAN-IMAGE-SUPER-RESOLUTION
 Start with an image dataset and "crappify" the images, such as reducing the resolution, adding artifacts, and obscurring parts with random text. Then train a model to "decrappify" the images to return to their original state.
 
 The general adversarial network was invented by Ian Goddfellow, where two networks play a game. In our case, we will build a "crappifier" to make images worse, and the critic will try to determine which is fake and which is original. This will help us achieve super resolution.
